@@ -22,7 +22,7 @@
 #     Failures:
 #
 #       1) the hello function says hello
-#          Failure/Error: expect(hello).to eq("Hello!")
+#          Failure/Error: expected(hello).to eq("Hello!")
 #          NameError:
 #            undefined local variable or method `hello' for #<RSpec::Core::ExampleGroup::Nested_1:0x000001009b8808>
 #          # ./hello/hello_spec.rb:5:in `block (2 levels) in <top (required)>'
