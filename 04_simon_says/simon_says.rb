@@ -32,6 +32,10 @@ def first_word(a)
 end
 
 def titleize(a)
+
   lowercase_words = %w{a an the and but or for nor of}
+ 
   a.split.each_with_index.map{|x, index| lowercase_words.include?(x) && index > 0 ? x : x.capitalize }.join(" ")
+
 end
+
