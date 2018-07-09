@@ -31,9 +31,9 @@ end
 
 def factorial(a)
 
-if a == 0
-	1
-else 
+if a == 0									# si a est égal à 0
+	1										# je retourne 1
+else 										# sinon argument * (argument - 1)
 	a * factorial(a - 1)
 
 end
